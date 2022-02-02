@@ -12,6 +12,7 @@ import raectProjImg3 from "../../assets/img/react/react_3.png";
 // import raectProjImg4 from "../../assets/img/react/react_4.png";
 // import raectProjImg5 from "../../assets/img/react/react_5.png";
 import raectProjImg6 from "../../assets/img/react/react_6.png";
+import reactPizza from "../../assets/img/react/pizza.png";
 
 
 const ReactBlock = () => {
@@ -30,12 +31,14 @@ const ReactBlock = () => {
 
 
     const [slides] = useState([
+	    {id:5, img: reactPizza, linkGit: "https://github.com/PaliyStepan/pizzaShop" ,link: "http://pizza-shop-stepan.herokuapp.com/" ,title: "react Pizza", desc: "Интеренет магазин Pizza", more: "Интеренет магазин с использованием axios, redux и json-server в качестве базы данных"},
         // {id:0, img:raectProjImg1, linkGit: "https://github.com/PaliyStepan/Samurai" ,link: "https://paliystepan.github.io/Samurai/#/login" ,title: "Соц. сеть", desc: "Соц. сеть с небольшим функционалом ", more: "Соц. сеть по урокам канала IT-Kamasutra. В проекте зайдествованы REDUX, Redux-form, axios, и API сервера IT-Kamasutra. Можно зайти под этим акканутом, потестить, поменять аватарку и информацию о юзере, посмотреть список юзеров и т.д.", note:{login: 'testmyskill@mail.ru', pass: 'test2019'} },
         {id:1, img: raectProjImg2, linkGit: "https://github.com/PaliyStepan/ReactMagaz" ,link: "https://reactmagaz.firebaseapp.com/" ,title: "Shop", desc: "Интернет магазин", more: "Интернет магазин с урезанным функционалом корзины. В проекте зайдествованы Redux, axios, lodash, react.semantic UI"},
         {id:2, img: raectProjImg3, linkGit: "https://github.com/PaliyStepan/ReactGitUsers" ,link: "https://reactgitusers.firebaseapp.com/" ,title: "GitHub users", desc: "GitHub", more: "Небольшой проект с использованием React Hooks и GitHub Users Api. Поиск по нику и переход на страничку юзера, с выводом репозиториев"},
         // {id:3, img: raectProjImg4, linkGit: "https://github.com/PaliyStepan/ReactQuiz" ,link: "https://react-quiz-140b0.firebaseapp.com/" ,title: "Quize", desc: "Опросник", more: "Небольшой проект с использованием Redux, БД firebase, axios. Зарегистрированным  пользователям можно создать новый тест, с любим колличеством вопросов и добавить его в БД firebase.  Незарегистрированным пользователям можно только пройти любой тест и увидеть количество правильных ответов.",  note:{login: 'testmyskill@mail.ru', pass: 'test2019'} },
         // {id:4, img: raectProjImg5, linkGit: "https://github.com/PaliyStepan/ReactToDoList" ,link: "https://todolistreact-4bfd7.firebaseapp.com/" ,title: "To Do List", desc: "To Do List", more: "To do list с ипользованием  React Hooks, БД firebase , axios и анимацией."},
         {id:4, img: raectProjImg6, linkGit: "https://github.com/PaliyStepan/resortReact" ,link: "https://reactresort.firebaseapp.com/" ,title: "Resort", desc: "Приложение с комнатами гостинцы", more: "Небольшой проект с использованием React Context Api, фильтрацией элементов и т.д."}
+
     ]);
 
 	const arrow = <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
