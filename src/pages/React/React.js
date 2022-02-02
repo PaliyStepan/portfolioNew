@@ -13,6 +13,7 @@ import raectProjImg3 from "../../assets/img/react/react_3.png";
 // import raectProjImg5 from "../../assets/img/react/react_5.png";
 import raectProjImg6 from "../../assets/img/react/react_6.png";
 import reactPizza from "../../assets/img/react/pizza.png";
+import reactCandy from "../../assets/img/react/candy.png";
 
 
 const ReactBlock = () => {
@@ -31,7 +32,8 @@ const ReactBlock = () => {
 
 
     const [slides] = useState([
-	    {id:5, img: reactPizza, linkGit: "https://github.com/PaliyStepan/pizzaShop" ,link: "http://pizza-shop-stepan.herokuapp.com/" ,title: "react Pizza", desc: "Интеренет магазин Pizza", more: "Интеренет магазин с использованием axios, redux и json-server в качестве базы данных"},
+	    {id:5, img: reactPizza, linkGit: "https://github.com/PaliyStepan/pizzaShop" ,link: "http://pizza-shop-stepan.herokuapp.com/" ,title: "react Pizza", desc: "Интеренет магазин Pizza", more: "Интеренет магазин с использованием axios, redux и json-server в качестве базы данных."},
+	    {id:6, img: reactCandy, linkGit: "https://github.com/PaliyStepan/candyGame" ,link: "https://candy-game.vercel.app/" ,title: "игра Candy Crush", desc: "Игра Candy Crush, с ипользованием drag'n'drop", more: "Игра Candy Crush, с ипользованием drag'n'drop"},
         // {id:0, img:raectProjImg1, linkGit: "https://github.com/PaliyStepan/Samurai" ,link: "https://paliystepan.github.io/Samurai/#/login" ,title: "Соц. сеть", desc: "Соц. сеть с небольшим функционалом ", more: "Соц. сеть по урокам канала IT-Kamasutra. В проекте зайдествованы REDUX, Redux-form, axios, и API сервера IT-Kamasutra. Можно зайти под этим акканутом, потестить, поменять аватарку и информацию о юзере, посмотреть список юзеров и т.д.", note:{login: 'testmyskill@mail.ru', pass: 'test2019'} },
         {id:1, img: raectProjImg2, linkGit: "https://github.com/PaliyStepan/ReactMagaz" ,link: "https://reactmagaz.firebaseapp.com/" ,title: "Shop", desc: "Интернет магазин", more: "Интернет магазин с урезанным функционалом корзины. В проекте зайдествованы Redux, axios, lodash, react.semantic UI"},
         {id:2, img: raectProjImg3, linkGit: "https://github.com/PaliyStepan/ReactGitUsers" ,link: "https://reactgitusers.firebaseapp.com/" ,title: "GitHub users", desc: "GitHub", more: "Небольшой проект с использованием React Hooks и GitHub Users Api. Поиск по нику и переход на страничку юзера, с выводом репозиториев"},
