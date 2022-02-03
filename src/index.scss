@@ -121,6 +121,11 @@ body {
 
 .App {
 
+	&__wrapper {
+		overflow: hidden;
+	}
+
+
 	&__container {
 		flex-direction: column;
 		padding-top: 30px;
