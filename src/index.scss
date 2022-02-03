@@ -53,6 +53,11 @@ body[data-theme='light'] {
 	--color-text: #111111;
 	--color-tags: #C0C0C0;
 	--color-gray: #C0C0C0;
+
+
+	.bg-img {
+		filter: brightness(4.0);
+	}
 }
 
 
@@ -432,8 +437,9 @@ body {
 
 .bg-img {
 	position: absolute;
-	top: 10%;
 	right: -20%;
+	top: auto;
+	bottom: -20px;
 
 	img {
 		max-width: 800px;
