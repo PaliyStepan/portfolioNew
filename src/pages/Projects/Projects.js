@@ -406,29 +406,33 @@ const Projects = () => {
 		                <div className="filter-buttons">
 			                <div className="filter-buttons__inner">
 				                <div className="filter-buttons__list">
-					                <div className={filter === null ? 'filter-button is-active' : 'filter-button '} onClick={()=>setSlidesHandler(null)}>
-						                <div className="filter-button__text">
-							                Все
-						                </div>
-						                <div className="filter-button__amount">
-							                {
-								                projects.length
-							                }
-						                </div>
-					                </div>
+                                    <div className="filter-buttons__col">
+                                        <div className={filter === null ? 'filter-button is-active' : 'filter-button '} onClick={()=>setSlidesHandler(null)}>
+                                            <div className="filter-button__text">
+                                                Все
+                                            </div>
+                                            <div className="filter-button__amount">
+                                                {
+                                                    projects.length
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
 					                {
 						                filterButtons.map(btn => (
-							                <div className={filter === btn.name ? 'filter-button is-active' : 'filter-button '} key={btn.name} onClick={()=>setSlidesHandler(btn.name)}>
-								                <div className="filter-button__text">
-									                {
-										                btn.translation
-									                }
-								                </div>
-								                <div className="filter-button__amount">
-									                {
-										                projects.filter(item => item.type === btn.name).length
-									                }
-								                </div>
+                                            <div className="filter-buttons__col" key={btn.name}>
+                                                <div className={filter === btn.name ? 'filter-button is-active' : 'filter-button '} onClick={()=>setSlidesHandler(btn.name)}>
+                                                    <div className="filter-button__text">
+                                                        {
+                                                            btn.translation
+                                                        }
+                                                    </div>
+                                                    <div className="filter-button__amount">
+                                                        {
+                                                            projects.filter(item => item.type === btn.name).length
+                                                        }
+                                                    </div>
+                                                </div>
 							                </div>
 						                ))
 					                }
