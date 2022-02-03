@@ -5,20 +5,14 @@ $green: #6ABEB9;
 .filter-buttons {
 	margin-bottom: 40px;
 
-	@media only screen and (max-width: 575px) {
-		margin-left: -50px;
-		margin-right: -50px;
-	}
+
 
 	&__inner {
 		@media only screen and (max-width: 575px) {
-			padding-left: 50px;
-			padding-right: 50px;
+			margin-left: -50px;
+			margin-right: -50px;
 			overflow-y: auto;
-			height: 50px;
-
-			//margin-left: -50px;
-			//margin-right: -50px;
+			height: 40px;
 		}
 	}
 
@@ -29,10 +23,8 @@ $green: #6ABEB9;
 		margin-bottom: -10px;
 
 		@media only screen and (max-width: 575px) {
-			//padding-left: 50px;
-			//padding-right: 50px;
-
 			flex-wrap: nowrap;
+			margin-bottom: 0;
 		}
 
 	}
@@ -41,6 +33,22 @@ $green: #6ABEB9;
 		padding-left: 5px;
 		padding-right: 5px;
 		margin-bottom: 10px;
+
+		@media only screen and (max-width: 575px) {
+			margin-bottom: 0;
+		}
+
+		&:first-of-type {
+			@media only screen and (max-width: 575px) {
+				padding-left: 50px;
+			}
+		}
+
+		&:last-of-type {
+			@media only screen and (max-width: 575px) {
+				padding-right: 50px;
+			}
+		}
 	}
 }
 
