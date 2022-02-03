@@ -128,7 +128,7 @@
 		height: 18px;
 		cursor: pointer;
 		position: absolute;
-		top: 30px;
+		top: -6px;
 		left: -40px;
 		transform: rotate(45deg);
 		opacity: 0.8;
@@ -148,7 +148,7 @@
 		}
 
 		@media only screen and (max-width: 575px) {
-			top: -20px;
+			top: 2px;
 		}
 	}
 
