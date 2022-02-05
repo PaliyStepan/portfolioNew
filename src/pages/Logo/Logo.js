@@ -1,17 +1,15 @@
 import "./Logo.scss"
-import {useEffect} from "react";
-import Snap from "snapjs"
+// import {useEffect} from "react";
+// import Snap, {} from "snapjs"
 
 
 const Logo = () => {
-
-	useEffect(()=>{
-		const snapper = new Snap({
-			element: document.getElementById('Logo__svg')
-		});
-		
-		console.log(Snap)
-	},[]);
+	// useEffect(()=>{
+	// 	const snapper = new Snap({
+	// 		element: document.getElementById('Logo__svg')
+	// 	});
+	//
+	// },[]);
 
 
 
