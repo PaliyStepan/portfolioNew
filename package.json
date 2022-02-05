@@ -15,7 +15,7 @@
     "react-slick": "^0.28.1",
     "react-transition-group": "^4.4.2",
     "slick-carousel": "^1.8.1",
-    "snapjs": "^1.2.1",
+    "snapsvg-cjs": "^0.0.6",
     "swiper": "6.8.4",
     "transition-group": "^0.0.2",
     "web-vitals": "^2.1.0"
