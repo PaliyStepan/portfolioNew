@@ -86,6 +86,8 @@ const Projects = () => {
 			    document.querySelectorAll('.swiper-slide')[0],
 		    ];
 	    }
+
+
         const h1End = document.querySelector('.Tag--h1-end');
         const h1EndAnim = () => {
             TweenMax.to(h1End,

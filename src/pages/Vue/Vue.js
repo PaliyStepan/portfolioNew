@@ -62,10 +62,50 @@ const ReactBlock = () => {
 
 
     useEffect(()=>{
-        const activeSlides = document.querySelectorAll('.slick-active');
         const tagStart = document.querySelector('.Tag--div-start');
         const tagEnd = document.querySelector('.Tag--div-end');
-        const arr = [...activeSlides];
+	    let arr = [];
+
+	    if (
+		    window.matchMedia("(max-width: 2700px)").matches
+		    && window.matchMedia("(min-width: 1450px)").matches
+	    ) {
+		    arr = [
+			    document.querySelectorAll('.slick-active')[0],
+			    document.querySelectorAll('.slick-active')[1],
+			    document.querySelectorAll('.slick-active')[2],
+			    document.querySelectorAll('.slick-active')[3],
+		    ];
+	    }
+
+	    if (
+		    window.matchMedia("(max-width: 1449px)").matches
+		    && window.matchMedia("(min-width: 992px)").matches
+	    ) {
+		    arr = [
+			    document.querySelectorAll('.slick-active')[0],
+			    document.querySelectorAll('.slick-active')[1],
+			    document.querySelectorAll('.slick-active')[2],
+		    ];
+	    }
+
+	    if (
+		    window.matchMedia("(max-width: 991px)").matches
+		    && window.matchMedia("(min-width: 651px)").matches
+	    ) {
+		    arr = [
+			    document.querySelectorAll('.slick-active')[0],
+			    document.querySelectorAll('.slick-active')[1],
+		    ];
+	    }
+
+	    if (
+		    window.matchMedia("(max-width: 650px)").matches
+	    ) {
+		    arr = [
+			    document.querySelectorAll('.slick-active')[0],
+		    ];
+	    }
 
         const divTagsAnim = ()=> {
             TweenMax.fromTo(tagStart,
