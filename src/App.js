@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Menu from "./components/Menu/Menu";
 import {Routes , Route, } from "react-router-dom";
 import Main from "./pages/Main/Main";
+import Logo from "./pages/Logo/Logo";
 import About from "./pages/About/About";
 import Skills from "./pages/Skills/Skills";
 import Projects from "./pages/Projects/Projects";
@@ -41,6 +42,7 @@ const App = () => {
 							<Route path="/contacts"  element={<Contacts/>}></Route>
 							<Route path="/games"   element={<Games/>}></Route>
 							<Route path="/" exact element={<Main/>}></Route>
+							<Route path="*" exact element={<Main/>}></Route>
 						</Routes >
 					</div>
 					<div className="App__footer">
