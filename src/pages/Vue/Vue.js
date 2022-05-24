@@ -30,7 +30,7 @@ const ReactBlock = () => {
     const [slides] = useState([
         {id:0, img: raectProjImg1, linkGit: "https://github.com/PaliyStepan/vue-colors" ,link: "https://vue-colors-c6574.firebaseapp.com/" ,title: "Shop", desc: "Интернет магазин", more: "Интернет магазин с корзиной, фильтрацией,сортировкой и пагинацией. В проекте зайдествован Vuex, Firebase."},
         {id:1, img: raectProjImg2, linkGit: "https://github.com/PaliyStepan/veuSearchGit" ,link: "https://git-vue-search.firebaseapp.com/" ,title: "Github Search", desc: "Github Search", more: "SPA по поиску юзеров git, используя github API."},
-        {id:12, img: raectProjImg3, linkGit: "https://github.com/PaliyStepan/vueTodo" ,link: "https://vuetodo-e60d8.firebaseapp.com/" ,title: "To Do List", desc: "To Do List", more: "Простой To Do List с добавлением новых 'To Do' и их фильтрацией"},
+        // {id:12, img: raectProjImg3, linkGit: "https://github.com/PaliyStepan/vueTodo" ,link: "https://vuetodo-e60d8.firebaseapp.com/" ,title: "To Do List", desc: "To Do List", more: "Простой To Do List с добавлением новых 'To Do' и их фильтрацией"},
     ]);
 
     let sliderSettings = {
