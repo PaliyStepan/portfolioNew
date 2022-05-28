@@ -35,6 +35,7 @@ import imgIntlight from "../../assets/img/projects/intlight.png";
 import imgTranswin from "../../assets/img/projects/transwin.png";
 import imgHorse from "../../assets/img/projects/horse.png";
 import imgAutosew from "../../assets/img/projects/autosew.png";
+import imgCheese from "../../assets/img/projects/cheese.png";
 
 
 
@@ -334,7 +335,14 @@ const Projects = () => {
 		    img: imgHorse,
 		    role: "Верстка, адаптив, jquery",
 		    type:'EduTech'
-	    }
+	    },
+		{
+			title:"Artdugout", desc: "Интернет-магазин cырного клуба",
+			link:"https://artdugout.ru/",
+			img:imgCheese,
+			role: "Верстка, адаптив, jquery",
+			type:'shop'
+		},
     ];
 
 	const filterButtons = [
