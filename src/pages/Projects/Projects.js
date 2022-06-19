@@ -213,7 +213,7 @@ const Projects = () => {
 	    {
 	    	title:"Streloy",
 		    desc: "Многостраничный сайт логистической компании",
-		    link:"http://s23397.h5.modhost.pro/",
+		    link:"https://streloy.ru/",
 		    img:imgStreloy, role: "Верстка, адаптив, jquery",
 		    type:'corporate'
 	    },
