@@ -36,6 +36,7 @@ import imgTranswin from "../../assets/img/projects/transwin.png";
 import imgHorse from "../../assets/img/projects/horse.png";
 import imgAutosew from "../../assets/img/projects/autosew.png";
 import imgCheese from "../../assets/img/projects/cheese.png";
+import imgHolod from "../../assets/img/projects/holod.png";
 
 
 
@@ -342,6 +343,13 @@ const Projects = () => {
 			img:imgCheese,
 			role: "Верстка, адаптив, jquery",
 			type:'shop'
+		},
+		{
+			title:"Проект-холод",
+			desc: "Лендинг обслуживающей компании",
+			link:"http://xn----htbbugodbckz1b.xn--p1ai/",
+			img:imgHolod, role: "Верстка, адаптив, jquery, анимации",
+			type:'landing'
 		},
     ];
 
